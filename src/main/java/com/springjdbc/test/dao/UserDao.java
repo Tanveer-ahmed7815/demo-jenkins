@@ -17,7 +17,7 @@ public class UserDao {
 	public int createTable() {
 		String query = "CREATE TABLE IF NOT EXISTS User(id int primary key, name varchar(200),age int,city varchar(100))";
 		int rows = this.jdbcTemplate.update(query);
-		System.out.println("Constructer called " + rows);
+		System.out.println("Constructer called " + rows + " ");
 		return rows;
 	}
 
