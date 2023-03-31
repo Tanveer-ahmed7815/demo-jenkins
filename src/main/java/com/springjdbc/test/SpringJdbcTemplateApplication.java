@@ -21,7 +21,7 @@ public class SpringJdbcTemplateApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		System.out.println(userDao.insertUser(101, "Tanveer", 27, "Bangalore"));
+		System.out.println(userDao.insertUser(102, "Tanveer", 27, "Bangalore"));
 
 	}
 
